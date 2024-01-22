@@ -24,10 +24,6 @@
                     <input type="submit" value="REFRESH LIST">
                     <label></label>
                 </form>
-                <form class="feedback-body" action="../SvKillSession" method="POST">
-                    <input type="submit" value="EXIT">
-                    <label></label>
-                </form>
             </div>  
         </form>
     </header>
