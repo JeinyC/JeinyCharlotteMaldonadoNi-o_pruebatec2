@@ -71,7 +71,7 @@ Acceder al menú principal.
 > En el archivo SQL esta comentado la inserción de unos datos base para probar el filtrado.
 
 <div align="center">
-  <img src="AppointmentApp/docs/img/bbddDiagram.drawio.png" alt="bbdd" width="500">
+  <img src="AppointmentApp/docs/img/diagrama.drawio.png" alt="bbdd" width="500">
 </div>
 
 [Archivo SQL](https://github.com/JeinyC/JeinyCharlotteMaldonadoNi-o_pruebatec2/blob/main/AppointmentApp/src/main/resources/SQL/appointment.sql)
