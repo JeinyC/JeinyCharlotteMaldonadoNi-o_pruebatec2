@@ -1,0 +1,113 @@
+* {
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    padding: 25px;
+    
+}
+.container-wrapper {
+    display: flex;
+}
+input, label{
+    font-size: 16px;
+    font-weight: bold;
+}
+input, button, textarea {
+    border: 3px solid;
+    border-color: #000000;
+    background-image: none;
+    background-color: #CCCCCC;
+    box-shadow: none;
+    padding: 8px;
+    font-weight: bold;
+}
+input:focus, button:focus, textarea:focus {
+    outline: none;
+}
+
+textarea {
+    min-height: 50px;
+    resize: vertical;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+table {
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px solid #000000;
+    text-align: center;
+    font-weight: bold;
+    background-color: #CCCCCC;
+}
+.feedback-card {
+    border: 5px solid black;
+    max-width: 90%;
+    background-color: #44F24F;
+    margin: 0 auto;
+    box-shadow: -0.6rem 0.6rem #737272;
+    
+}
+.feedback-header {
+    text-align: center;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 5px solid black;
+    max-width: 100%;
+    
+}
+
+.feedback-body {
+    padding: 20px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    max-width: 100%;
+    
+}
+.feedback-body__message {
+    margin-top: 10px;
+}
+.feedback-body button {
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+.alert {
+    padding: 15px;
+    border: 10px solid #900;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fdd;
+}
+
+.alert-danger {
+    color: #900;
+    background-color: #fcc;
+    border-color: #f00;
+    text-align: center;
+    display: block;
+}
