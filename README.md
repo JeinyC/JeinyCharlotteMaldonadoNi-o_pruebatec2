@@ -9,8 +9,6 @@ Esta prueba técnica evalua mis conocimientos en Java y Java Web, incluyendo sin
 2. [Uso del Programa](#uso-del-programa)
 3. [Base de datos](#base-de-datos)
 5. [Supuestos](#supuestos)
-6. [Estructura del Proyecto](#estructura-del-proyecto)
-7. [Comentario del Programa](#comentario-del-programa)
 
 ## Funcionalidades Principales
 > Este es un proyecto secreto para administrar los turnos de los usuarios en una entidad gubernamental secreta y discreta de los años de WindowsXP.
@@ -30,10 +28,12 @@ Esta prueba técnica evalua mis conocimientos en Java y Java Web, incluyendo sin
 > Por otro lado, el administrador podrá editar el estado de su turno.
 
 ### 1. Inicio
+
 <img src="AppointmentApp/docs/img/init.png" alt="init" width="500">
 
 
 ### 2. Listado de turnos con opción a filtrar datos
+
 <img src="AppointmentApp/docs/img/userList.png" alt="userList" width="500">
 
 ### 3. Sing Up y Login
@@ -42,22 +42,28 @@ Registro y loggeo
 <img src="AppointmentApp/docs/img/signUpLogin.png" alt="signUpLogin" width="500">
 
 ### 4. Seleccionar Turno
+
 <img src="AppointmentApp/docs/img/appointment.png" alt="appointment" width="400">
 
 
 ### 5. Sing Up no deseado(ingreso de numero secreto ya existente)
+
 Le observaremos por la web cam, eliminaremos el registro tanto en web como en vida.
 
 ### 6. Funciones de Administrador@
+
 El admin puede ver la lista de turnos y cambiar el estado de esperando a atendido y viseversa.
 Tambien puede hacer dos tipos de filtrado. El filtrado que tienen los usuarios más uno especifico para detectar más rapido a los reclutas menores de edad que han accedido a esta proyecto secreto y darles un trato especial. Se podra refrescar la lista con el boton "REFRESH LIST".Esto es util para ver los cambios de estado o eliminar los filtros, teniendo de nuevo la lista completa y actualizada.
+
 
 <img src="AppointmentApp/docs/img/admin.png" alt="admin" width="500">
 
 ### 7. ¿Y si no existo y loggeo?
+
 Será avisad@ y podrá tener la oportunidad de volver a intentarlo.
 
 ### 8. Return
+
 Acceder al menú principal.
 
 ## Base de datos
